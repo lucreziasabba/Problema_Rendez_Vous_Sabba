@@ -16,7 +16,7 @@ namespace Problema_Rendez_Vous_Sabba
 
         static Random r = new Random();
         static void Main(string[] args)
-        {
+        { 
             Thread t1 = new Thread(() => Metodo1());
             t1.Start();
             Thread t2 = new Thread(() => Metodo2());
